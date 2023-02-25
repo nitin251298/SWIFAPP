@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Swif",
+    "slug": "Mobile",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/SWIFAPPX_LOGO-2.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/SWIFAPPX_LOGO-Splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.breezlab.swif"
+    },
+    "android": {
+      "versionCode": 6,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/SWIFAPPX_LOGO-2.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.breezlab.swif",
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "CAMERA_ROLL"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "89753a5c-e39f-4145-a4d0-9fa22001be96"
+      }
+    }
+  }
+}
